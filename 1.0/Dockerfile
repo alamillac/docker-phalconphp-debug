@@ -1,6 +1,6 @@
 # phalconphp-debug
 #
-# VERSION               0.0.1
+# VERSION               1.0
 
 FROM     alamilla/phalconphp
 MAINTAINER Andres F. Lamilla, "alamilla@gmail.com"
