@@ -17,6 +17,9 @@ RUN mkdir /var/run/sshd
 ADD src/ssh.sv.conf /etc/supervisor/conf.d/ssh.sv.conf
 ADD src/start_ssh.sh /usr/local/bin/start_ssh.sh
 
+# se adiciona la configuracion de apache
+ADD src/phalconApp.conf /etc/apache2/sites-available/phalconApp.conf
+
 RUN chmod +x /usr/local/bin/*.sh
 
 # se crea un usuario para acceder al sistema
